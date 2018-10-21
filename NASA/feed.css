@@ -131,8 +131,41 @@ body {
 }
 .post{
 	width:60%;
-	min-height:40%;
-	background-color:red;
+	min-height:50%;
+	border-radius:10px;
 	margin: auto;
+}
+.deploy{
+	width:60%;
+	padding:auto;
+	min-height:30%;
+	margin:auto;
+	border-radius:10px;
+	border: 1px solid black;
+}
+.deploy input[type="text"]{
+	width:90%;
+	margin:auto;
+	padding:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+
+}
+.deploy input[type="file"]{
+	width:90%;
+	margin:auto;
+	border-radius:15px;
+}
+.deploy input[type="submit"]{
+	border-radius:15px;
+	width:80%;
+	margin:auto;
+	margin-top:10px;
+	background:none;
+	border: 1px solid #870000;
+}
+.deply input[type="submit"]:hover{
+	color:#f9683a;
+	border: 1px solid #f9683a;
 }
 
