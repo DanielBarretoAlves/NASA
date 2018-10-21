@@ -9,6 +9,7 @@ body {
   background-color: #37474f;
   position: fixed;
   top: 0;
+  font-family: 'Comfortaa', cursive;
   width: 100%;
 }
 
@@ -39,6 +40,7 @@ body {
 .profBox{
 	margin-top:25px;
 	width: 60%;
+	font-family: 'Comfortaa', cursive;
 	height:38%;
 	background-color:#ffffff;
 	border-radius:5px;
@@ -55,11 +57,13 @@ body {
 .profBox h1{
 	color:#dd2c00;
 	margin-left:10px;
+	font-family: 'Abril Fatface', cursive;
 }
 .graphBox{
 	margin-top:25px;
 	margin-left:20px;
 	width: 39%;
+	font-family: 'Comfortaa', cursive;
 	height:20%;
 	background-color:#ffffff;
 	border-radius:5px;
