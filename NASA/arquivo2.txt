@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE email = :email AND senha = :senhaSELECT * FROM users WHERE email = :email AND senha = :senhaSELECT * FROM users WHERE email = :email AND senha = :senhaSELECT * FROM users WHERE email = :email AND senha = :senhaSELECT * FROM users WHERE email = :email AND senha = :senha
