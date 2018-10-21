@@ -50,10 +50,11 @@ body {
 }
 .profBox p{
 	margin-right:30px;
-	text-align:center;
+	text-align:left;
 }
 .profBox h1{
 	color:#dd2c00;
+	margin-left:10px;
 }
 .graphBox{
 	margin-top:25px;
@@ -80,9 +81,11 @@ body {
 }
 .post{
 	width:20%;
-	background-color:#ffc107;
+	background-color:#37474f;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	color:white;
+	font-weight:bold;
 }
 .maxGG{
 	width:90%;
@@ -96,7 +99,7 @@ body {
 	width:40%;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
-	background-color:#003300;
+	background-color:#37474f;
 	color:white;
 	font-weight:bold;
 }
@@ -111,8 +114,36 @@ body {
 }
 .fail{
 	width:70%;
-	background-color:red;
+	background-color:#37474f;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	color:white;
 	font-weight:bold;
+}
+
+.wrapper {
+	overflow:hidden;
+}
+
+.wrapper div {
+	min-height: 16px;
+}
+#one {
+	float:left;
+	margin-right:16px;
+	width:140px;
+}
+#two {
+	overflow:hidden;
+	min-height:33px;
+}
+
+@media screen and (max-width: 400px) {
+	#one {
+		float: none;
+		margin-right:0;
+		width:auto;
+		border:0;
+		border-bottom:2px solid #000;
+	}
 }
