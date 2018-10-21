@@ -9,6 +9,7 @@ body {
   background-color: #37474f;
   position: fixed;
   top: 0;
+  font-family: 'Comfortaa', cursive;
   width: 100%;
 }
 
@@ -19,6 +20,7 @@ body {
   font-weight: bold;
   text-align: center;
   float:right;
+  font-family: 'Comfortaa', cursive;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -45,9 +47,16 @@ body {
 	border-radius:5px;
 	box-shadow: 2px 3px 10px 2px #c2c2c2;
 	
+
+	
+}
+.leftBox p{
+	font-family: 'Srisakdi', cursive;
+	font-size: 30px;
 }
 .leftBox h1{
 	color:#dd2c00;
+	font-family: 'Abril Fatface', cursive;
 }
 .rightBox{
 	margin-top:25px;
@@ -59,10 +68,13 @@ body {
 	box-shadow: 2px 3px 10px #c2c2c2;
 	text-align: center;
 	color:#1b1b1b;
+	font-family: 'Comfortaa', cursive;
+
 }
 .rightBox h1{
 	color:#dd2c00;
 	margin-bottom:30%;
+	font-family: 'Abril Fatface', cursive;
 }
 .rightBox input{
 	width:95%;
