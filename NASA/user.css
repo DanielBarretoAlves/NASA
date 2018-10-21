@@ -1,0 +1,118 @@
+body {
+	margin:0;
+	overflow: hidden;
+	background-color:#f5f5f5;
+	}
+
+.navbar {
+  overflow: hidden;
+  background-color: #37474f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ff5722;
+  font-weight: bold;
+  text-align: center;
+  float:right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ff5722;
+  color: #ffffff;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.profBox{
+	margin-top:25px;
+	width: 60%;
+	height:38%;
+	background-color:#ffffff;
+	border-radius:5px;
+	box-shadow: 2px 3px 10px 2px #c2c2c2;
+	display:inline;
+	
+	
+	
+}
+.profBox p{
+	margin-right:30px;
+	text-align:center;
+}
+.profBox h1{
+	color:#dd2c00;
+}
+.graphBox{
+	margin-top:25px;
+	margin-left:20px;
+	width: 39%;
+	height:20%;
+	background-color:#ffffff;
+	border-radius:5px;
+	box-shadow: 2px 3px 10px #c2c2c2;
+	text-align: center;
+	color:#1b1b1b;
+}
+.graphBox h1{
+	color:#dd2c00;
+	margin-bottom:30%;
+}
+.maxPost{
+	width:90%;
+	height:18px;
+	border-radius:10px;
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid black;
+}
+.post{
+	width:20%;
+	background-color:#ffc107;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.maxGG{
+	width:90%;
+	height:18px;
+	border-radius:10px;
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid black;
+}
+.gg{
+	width:40%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color:#003300;
+	color:white;
+	font-weight:bold;
+}
+.maxFail{
+	width:90%;
+	border-radius:10px;
+	height:18px;
+	margin: auto;
+	margin-top:20px;
+	border: 1px solid black;
+	font-weight:bold;
+}
+.fail{
+	width:70%;
+	background-color:red;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-weight:bold;
+}
